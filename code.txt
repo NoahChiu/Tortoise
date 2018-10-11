@@ -22,3 +22,12 @@ elapsed = end - start
 print ("Time taken: ", elapsed, "seconds.")
 print('Total Files', len(fileList))
 print('Total Folders', folderCount)
+
+# Hour
+Hour = elapsed//3600
+# Minute
+Minute = elapsed%3600//60
+# Second
+Second = elapsed%3600%60
+
+print('Time taken: %s ¤p®É %s ¤À %s ¬í'%(int(Hour),int(Minute),round(Second,3)))
