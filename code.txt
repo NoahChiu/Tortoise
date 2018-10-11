@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import numpy as np
 
 fileList = []
 fileSize = 0
